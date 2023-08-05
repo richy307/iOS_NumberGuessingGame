@@ -31,6 +31,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Guess" buttonSize="small"/>
+                                <connections>
+                                    <action selector="guess:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s1R-qt-xvC"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="?A" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IiQ-DB-vlr">
                                 <rect key="frame" x="201" y="123" width="43" height="30"/>
@@ -55,6 +58,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reply" buttonSize="small"/>
+                                <connections>
+                                    <action selector="reply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qpe-6x-xkp"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ejl-z8-C8R">
                                 <rect key="frame" x="20" y="163" width="353" height="635"/>
@@ -103,8 +109,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="NumBer Guessing" id="o8b-cb-7Ar">
-                        <barButtonItem key="rightBarButtonItem" title="Reset" id="SqY-Lp-qDZ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Reset" id="SqY-Lp-qDZ">
+                            <connections>
+                                <action selector="rest:" destination="BYZ-38-t0r" id="8TB-aA-YSS"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="computerLog" destination="Xvt-a7-fHY" id="2XH-z6-cnx"/>
+                        <outlet property="guessTextField" destination="LIA-bh-WQZ" id="6wd-YF-SyK"/>
+                        <outlet property="inputA" destination="IiQ-DB-vlr" id="Xda-gH-rNa"/>
+                        <outlet property="inputB" destination="PZv-gU-ZJs" id="g7S-Hy-Z0n"/>
+                        <outlet property="playerLog" destination="ZOo-AX-AGL" id="ayx-fH-fW1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
