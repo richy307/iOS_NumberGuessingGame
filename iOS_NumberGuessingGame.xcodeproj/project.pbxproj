@@ -13,6 +13,7 @@
 		1AED12BB2A7E8664003449E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AED12B92A7E8664003449E5 /* Main.storyboard */; };
 		1AED12BD2A7E8667003449E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AED12BC2A7E8667003449E5 /* Assets.xcassets */; };
 		1AED12C02A7E8667003449E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AED12BE2A7E8667003449E5 /* LaunchScreen.storyboard */; };
+		1AED12C82A7EB03F003449E5 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED12C72A7EB03F003449E5 /* Basic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1AED12BC2A7E8667003449E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AED12BF2A7E8667003449E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AED12C12A7E8667003449E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AED12C72A7EB03F003449E5 /* Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1AED12BC2A7E8667003449E5 /* Assets.xcassets */,
 				1AED12BE2A7E8667003449E5 /* LaunchScreen.storyboard */,
 				1AED12C12A7E8667003449E5 /* Info.plist */,
+				1AED12C72A7EB03F003449E5 /* Basic.swift */,
 			);
 			path = iOS_NumberGuessingGame;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AED12C82A7EB03F003449E5 /* Basic.swift in Sources */,
 				1AED12B82A7E8664003449E5 /* ViewController.swift in Sources */,
 				1AED12B42A7E8664003449E5 /* AppDelegate.swift in Sources */,
 				1AED12B62A7E8664003449E5 /* SceneDelegate.swift in Sources */,
