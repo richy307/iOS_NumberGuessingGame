@@ -26,6 +26,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        playerLog.text = "----- Player -----\n"
+        computerLog.text = "----- Computer -----\n"
+        
     }
 
 
