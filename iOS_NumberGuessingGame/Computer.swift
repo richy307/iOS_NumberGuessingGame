@@ -10,6 +10,7 @@ import Foundation
 class Computer: Basic {
     
     var answerUmberString = ""
+    var guessCount = 0
     
     func generateAnswerNumberString() {
         // 產生答案
@@ -24,6 +25,14 @@ class Computer: Basic {
                 numbers.remove(at: index)
             }
         }
+    }
+    
+    func userGuess(input: String) -> (A:Int, B:Int)? {
+        let result = checkAB(test: input, answer: answerUmberString)
+        if result != nil {
+            guessCount += 1
+        }
+        return result
     }
     
     override init() {
